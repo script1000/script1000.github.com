@@ -1,4 +1,5 @@
 name: script1000のデータ屋
+title: scirpt1000のデータ屋
 description: jsやhtmlなどのデータを保管するサイト
 url: https://script1000.github.com
 repository: https://github.com/script1000/script1000.github.com
@@ -8,7 +9,25 @@ plugins:
 - jekyll-avatar
 - jekyll-seo-tag
 - jekyll-sitemap
+- jekyll-feed
 - jemoji
 
 show_dir_listing: true
 theme: jekyll-theme-cayman
+
+defaults:
+  scope:
+    path: _posts
+    type: posts
+  scope:
+    path: _codes
+    type: codes
+
+feed:
+  categories:
+    pc
+    account
+    accidents
+    codes
+    games
+    others
