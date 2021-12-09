@@ -11,3 +11,4 @@ plugins:
 - jemoji
 
 show_dir_listing: true
+theme: jekyll-theme-cayman
