@@ -14,20 +14,3 @@ plugins:
 
 show_dir_listing: true
 theme: jekyll-theme-cayman
-
-defaults:
-  scope:
-    path: _posts
-    type: posts
-  scope:
-    path: _codes
-    type: codes
-
-feed:
-  categories:
-    pc
-    account
-    accidents
-    codes
-    games
-    others
