@@ -1,0 +1,16 @@
+@font-face{
+  font-family: Unown;
+  src: url(Unown.ttf);
+}
+
+body{
+  background-color: red;
+}
+.text{
+  font-family: Unown;
+  color: black;
+  vertical-align: center;
+}
+.ghost{
+  width: 100px;
+}
