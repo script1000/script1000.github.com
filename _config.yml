@@ -6,12 +6,29 @@ repository: https://github.com/script1000/script1000.github.com
 timezone: Japan
 google_analytics_id: UA-214899681-2
 google_site_verification: t55QGjwh_eXNPM4WHHhJEAD22F6WhazVlOj_f5naJ5E
+
 plugins:
+- jekyll-redirect-from
 - jekyll-avatar
 - jekyll-seo-tag
 - jekyll-sitemap
 - jekyll-feed
 - jemoji
+gems:
+- jekyll-redirect-from
+- jekyll-avatar
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+- jemoji
+whitelist:  
+- jekyll-redirect-from
+- jekyll-avatar
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+- jemoji
+
 
 show_dir_listing: true
 theme: jekyll-theme-cayman
